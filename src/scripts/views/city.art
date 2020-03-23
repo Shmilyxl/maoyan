@@ -1,0 +1,88 @@
+<section class="city_contain">
+    <div class="city_head">
+        <div class="city-title">
+            定位城市
+        </div>
+    </div>
+    <div class="clearfix city_list_line city-list city_box">
+        <div class="loaction_city city_item position_city">
+            定位失败，请点击重试
+        </div>
+    </div>
+    <div class="city_head">
+        <div class="city-title">
+            热门城市
+        </div>
+    </div>
+    <div class="city_list_line city-list city_box clearfix">
+        <div class="loaction_city .city_item">
+            上海
+        </div>
+        <div class="loaction_city .city_item">
+            北京
+        </div>
+        <div class="loaction_city .city_item">
+            深圳
+        </div>
+        <div class="loaction_city .city_item">
+            广州
+        </div>
+        <div class="loaction_city .city_item">
+            武汉
+        </div>
+        <div class="loaction_city .city_item">
+            天津
+        </div>
+        <div class="loaction_city .city_item">
+            西安
+        </div>
+        <div class="loaction_city .city_item">
+            南京
+        </div>
+        <div class="loaction_city .city_item">
+            杭州
+        </div>
+        <div class="loaction_city .city_item">
+            成都
+        </div>
+        <div class="loaction_city .city_item">
+            重庆
+        </div>
+    </div>
+    <div class="city_list ">
+
+    </div>
+
+
+    <section class="nav">
+        <div>定位</div>
+        <div>最近</div>
+        <div>热门</div>
+        <div>A</div>
+        <div>B</div>
+        <div>C</div>
+        <div>D</div>
+        <div>E</div>
+        <div>F</div>
+        <div>G</div>
+        <div>H</div>
+        <div>I</div>
+        <div>J</div>
+        <div>K</div>
+        <div>L</div>
+        <div>M</div>
+        <div>N</div>
+        <div>O</div>
+        <div>P</div>
+        <div>Q</div>
+        <div>R</div>
+        <div>S</div>
+        <div>T</div>
+        <div>U</div>
+        <div>V</div>
+        <div>W</div>
+        <div>X</div>
+        <div>Y</div>
+        <div>Z</div>
+    </section>
+</section>

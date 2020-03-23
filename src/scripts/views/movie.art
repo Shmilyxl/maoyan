@@ -1,0 +1,37 @@
+<div class='list-container'>
+    <a id="download-header" data-cid="c_dmLad" data-bid="b_53up23as" data-lab="{postion:'home', utm_content: , utm_source: }">
+        <div class="download-header" data-download='advertise'>
+            <div class="logo-img"></div>
+            <div class="info-wrapper">
+                <div class="title">猫眼</div>
+                <div class="content">0 元看电影，天天领现金</div>
+            </div>
+            <div class="link-btn">立即领取<img src="http://p0.meituan.net/moviemachine/89857785f50685578fa61e1883251da95640.png"></img>
+            </div>
+        </div>
+    </a>
+    <nav class="topbar">
+        <div class="white-bg topbar-bg ">
+            <div class="city-entry" data-index="city">
+                <span class="city-name">北京</span><i class="city-entry-arrow"></i>
+            </div>
+            <div class="switch-hot" data-active=".n-hot">
+                <div class="hot-item hover_item" id="n_hot" data-tab=".n-hot">正在热映</div>
+
+                <div class="hot-item" id="f_hot" data-tab=".f-hot">即将上映</div>
+            </div>
+            <div class="search-entry search-icon" data-type="search"></div>
+        </div>
+    </nav>
+    <div class="down_tip" data-download='advertise'></div>
+    <div class='list_wrap'>
+        <ul class='list'>
+        </ul>
+        <ul class="c-list">
+        </ul>
+    </div>
+    <div class='comingmovie_wrap' data-movie="hot-movie">
+        <ul class='comingmovie' data-movie="coming">
+        </ul>
+    </div>
+</div>

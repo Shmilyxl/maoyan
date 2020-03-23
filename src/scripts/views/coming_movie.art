@@ -1,0 +1,53 @@
+<div class="hot_list">
+    <div class="most_expect ">
+        <p class='title'>近期最受期待</p>
+        <div class="expect_wrap">
+            <div class="title_list ">
+                {{each list}}
+                <div class="expect_item ">
+                    <div class='post_img_bg default-img-bg'>
+                        <img src="{{$value.img.replace(/\/w.h\//,/128.180/)}}" alt=" ">
+                        <span></span>
+                        <span class="wash "><span class="wash_people "> 12366526</span>人想看</span>
+                    </div>
+                    <h5 class="line-ellipsis name "></h5>
+                    <p class="date "></p>
+                </div>
+                {{/each}}
+            </div>
+        </div>
+    </div>
+    <div class="coming_list-wrap">
+        <div class="coming_list ">
+            {{each list}}
+            <div class="coming_wrap ">
+                <p class="g_date "></p>
+                <div class="coming_item ">
+                    <div class="main_block ">
+                        <div class="avatar ">
+                            <div class="image_img_bg ">
+                                <img src="{{$value.img.replace(/\/w.h\//,/128.180/)}}" alt=" ">
+                            </div>
+                        </div>
+                        <div class="coming_content_wrapper ">
+                            <div class="colum content ">
+                                <div class="box_flex movie_title ">
+                                    <div class="title ">{{$value.nm}}</div>
+                                </div>
+                                <div class="detail column ">
+                                    <div class="wantsee line-ellipsis "><span class="wantsee_peo ">{{$value.wish}}</span><span class="people ">人想看</span></div>
+                                    <div class="actor line-ellipsis ">{{$value.star}}</div>
+                                    <div class="actor line-ellipsis ">{{$value.showInfo}}</div>
+                                </div>
+                            </div>
+                            <div class="button_block ">
+                                <div class="btn ">预售</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {{/each}}
+        </div>
+    </div>
+</div>

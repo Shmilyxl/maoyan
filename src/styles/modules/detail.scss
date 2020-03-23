@@ -1,0 +1,498 @@
+.detail_contain {
+    .donload_app {
+        position: relative;
+        height: 64px;
+        padding: 0 11px;
+        img {
+            position: absolute;
+            left: 15px;
+            top: 11px;
+            width: 42px;
+            height: 42px;
+        }
+        .app_name {
+            margin-left: 56px;
+            font-size: 17px;
+            color: #222;
+            line-height: 23px;
+            padding-top: 11px;
+        }
+        .app_desc {
+            font-size: 12px;
+            color: #999;
+            margin-left: 56px;
+        }
+        a {
+            position: absolute;
+            right: 17px;
+            top: 15px;
+            width: 68px;
+            height: 32px;
+            line-height: 32px;
+            text-align: center;
+            background: #ef4238;
+            border-radius: .06rem;
+            font-size: 13px;
+            color: #fff;
+        }
+    }
+    #app {
+        .movie-page {
+            .movie-info {
+                padding: 21px 16px;
+                .movie-info-top {
+                    overflow: hidden;
+                    display: flex;
+                    justify-content: flex-start;
+                    .movie-cover {
+                        float: left;
+                        width: 100px;
+                        height: 138px;
+                        position: relative;
+                        .poster-play {
+                            position: absolute;
+                            bottom: 0;
+                            left: 0;
+                            width: 30px;
+                            height: 30px;
+                        }
+                    }
+                    .movie-desc {
+                        flex-grow: 1;
+                        margin-left: 12px;
+                        display: flex;
+                        flex-flow: column;
+                        justify-content: space-between;
+                        overflow: hidden;
+                        .movie-desc-top {
+                            display: flex;
+                            flex-flow: column;
+                            justify-content: flex-start;
+                            flex-grow: 1;
+                            color: #b2b2b2;
+                            .movie-cn-name {
+                                color: #fff;
+                                font-size: 20px;
+                                width: 100%;
+                                text-overflow: ellipsis;
+                                white-space: nowrap;
+                                overflow: hidden;
+                                font-weight: 700;
+                            }
+                            .movie-en-name {
+                                font-size: 12px;
+                                opacity: .6;
+                                text-overflow: ellipsis;
+                                white-space: nowrap;
+                                overflow: hidden;
+                            }
+                            .movie-other-info {
+                                .movie-type {
+                                    display: flex;
+                                    .movie-cat {
+                                        font-size: 12px;
+                                        display: flex;
+                                        align-items: center;
+                                    }
+                                    .movie-tag {
+                                        img {
+                                            height: 14px
+                                        }
+                                    }
+                                }
+                                .actors {
+                                    font-size: 12px;
+                                    opacity: .6;
+                                    text-overflow: ellipsis;
+                                    white-space: nowrap;
+                                    overflow: hidden;
+                                }
+                                .movie-show-time {
+                                    @extend .actors
+                                }
+                            }
+                        }
+                        .btns {
+                            display: flex;
+                            justify-content: space-between;
+                            button {
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                background: hsla(0, 0%, 100%, .35);
+                                box-shadow: 0 0.02rem 0.08rem 0 rgba(0, 0, 0, .1);
+                                border-radius: 4px;
+                                font-size: 14px;
+                                width: 47.61904762%;
+                                height: 30px;
+                                color: #fff;
+                            }
+                            a {
+                                display: block;
+                                justify-content: center;
+                                align-items: center;
+                                background: hsla(0, 0%, 100%, .35);
+                                box-shadow: 0 0.02rem 0.08rem 0 rgba(0, 0, 0, .1);
+                                border-radius: 4px;
+                                font-size: 14px;
+                                width: 47.61904762%;
+                                height: 30px;
+                                color: #fff;
+                                line-height: 30px;
+                                text-align: center;
+                            }
+                            img {
+                                width: 14px;
+                                height: 14px;
+                            }
+                        }
+                    }
+                }
+                .real-time-word-of-mouth {
+                    background-color: rgba(0, 0, 0, .2);
+                    box-shadow: 0 0 3px hsla(0, 0%, 100%, .03);
+                    border-radius: 6px;
+                    margin-top: 15px;
+                    padding: 10px 12px;
+                    .top {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        color: #fff;
+                        .left {
+                            font-size: 12px;
+                            display: flex;
+                            justify-content: flex-start;
+                            align-items: center;
+                            img {
+                                width: .14px;
+                                height: 14px;
+                                margin-right: 4px;
+                            }
+                        }
+                        .right {
+                            display: flex;
+                            align-items: center;
+                            font-size: 10px;
+                            .num {
+                                font-size: 11px;
+                                margin-right: 4px;
+                            }
+                        }
+                    }
+                    .middle {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        padding: 2px 0;
+                        color: #fff;
+                        .left {
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: center;
+                            margin-right: 2px;
+                            .score {
+                                font-size: 34px;
+                                color: #ffb400;
+                                line-height: 8px;
+                            }
+                            .people-grade {
+                                opacity: .4;
+                                font-size: 1px;
+                                margin-top: 13px;
+                            }
+                        }
+                        .right {
+                            .stars-percent-bar {
+                                display: flex;
+                                align-items: center;
+                                .stars {
+                                    justify-content: flex-end;
+                                    width: 7px;
+                                    display: flex;
+                                    align-items: center;
+                                    .img {
+                                        height: 5px;
+                                        width: 5px;
+                                        margin-left: 5px;
+                                    }
+                                    .noneBg {
+                                        background: none;
+                                    }
+                                }
+                                .bar {
+                                    width: 100px;
+                                    height: 5px;
+                                    background-color: hsla(0, 0%, 100%, .05);
+                                    border-radius: 1px;
+                                    margin-left: 6px;
+                                    margin-right: 1px;
+                                    .precent {
+                                        height: 100%;
+                                        width: 58%;
+                                        background-color: #ffb400;
+                                        border-radius: .02rem;
+                                    }
+                                }
+                                .precent {
+                                    opacity: .4;
+                                    font-size: 7px;
+                                }
+                            }
+                        }
+                    }
+                    .bottom {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        padding-top: 10px;
+                        .left {
+                            font-size: 12px;
+                            color: #ffe4a2;
+                            display: flex;
+                            justify-content: flex-start;
+                            align-items: center;
+                        }
+                    }
+                }
+            }
+            .brief-introduction {
+                position: relative;
+                padding: 16px 0 0;
+                .title {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    span {
+                        color: #fff;
+                        font-size: 15px;
+                    }
+                }
+                .height-limit {
+                    display: -webkit-box;
+                    -webkit-box-orient: vertical;
+                    -webkit-line-clamp: 3;
+                    text-overflow: ellipsis;
+                    word-wrap: break-word;
+                    word-break: break-all;
+                    overflow: hidden;
+                }
+                .content {
+                    font-size: 15px;
+                    line-height: 26px;
+                    overflow: hidden;
+                    color: #fff;
+                    .brief-introduction-content {
+                        display: -webkit-box;
+                        -webkit-box-orient: vertical;
+                        -webkit-line-clamp: 3;
+                        text-overflow: ellipsis;
+                        word-wrap: break-word;
+                        word-break: break-all;
+                        overflow: hidden;
+                    }
+                }
+            }
+            .actors {
+                margin: 18px 0 15px;
+                .title {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    span {
+                        color: #fff;
+                        font-size: 15px;
+                    }
+                    .img {
+                        height: 5px;
+                        width: 5px;
+                        margin-left: 5px;
+                    }
+                    .noneBg {
+                        background: none;
+                    }
+                }
+                .actor-list {
+                    margin-top: 11px;
+                    ul {
+                        display: flex;
+                        justify-content: flex-start;
+                        align-items: flex-start;
+                        overflow-x: scroll;
+                        li {
+                            display: list-item;
+                            a {
+                                display: flex;
+                                flex-flow: column;
+                                justify-content: center;
+                                align-items: center;
+                                width: 82px;
+                                color: #fff;
+                                font-size: 14px;
+                                img {
+                                    width: 80px;
+                                    height: 112px;
+                                    display: block;
+                                    background: none;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .videos-photos {
+                margin: 18px 0 15px;
+                .title {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    span {
+                        color: #fff;
+                        font-size: 15px;
+                    }
+                    .img {
+                        height: 5px;
+                        width: 5px;
+                        margin-left: 5px;
+                    }
+                    .noneBg {
+                        background: none;
+                    }
+                }
+                .videos-photos-list {
+                    ul {
+                        display: flex;
+                        justify-content: flex-start;
+                        align-items: flex-start;
+                        overflow-x: scroll;
+                        .vidio {
+                            display: flex;
+                            flex-flow: column;
+                            justify-content: center;
+                            align-items: center;
+                            a {
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                position: relative;
+                                img {
+                                    width: 80px;
+                                    height: 112px;
+                                    display: block;
+                                    background: none;
+                                }
+                            }
+                        }
+                        .left-margin {
+                            margin: 0 8px;
+                        }
+                    }
+                }
+            }
+            .discussion {
+                background-color: #fff;
+                border-top-left-radius: 10px;
+                border-top-right-radius: 10px;
+                overflow: hidden;
+                margin-top: -.24rem;
+                position: relative;
+                .title {
+                    display: flex;
+                    justify-content: space-between;
+                    padding: 13px 18px 14px;
+                    span {
+                        font-size: 15px;
+                        color: #333;
+                    }
+                    article {
+                        padding: 15px;
+                        display: flex;
+                        justify-content: flex-start;
+                        align-items: flex-start;
+                        .acavter {
+                            height: 34px;
+                            width: 34px;
+                            border-radius: 17px;
+                        }
+                        .right {
+                            margin-left: 11px;
+                            flex-grow: 1;
+                            .top {
+                                display: flex;
+                                justify-content: space-between;
+                                .name-box {
+                                    display: flex;
+                                    align-items: center;
+                                    div {
+                                        .name {
+                                            font-size: 12px;
+                                            color: #333;
+                                        }
+                                        img {
+                                            width: 31px;
+                                            height: 15px;
+                                            margin-left: 6px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        .middle {
+                            margin-top: 5px;
+                            a {
+                                text-decoration: none;
+                                color: inherit;
+                            }
+                        }
+                    }
+                }
+                .np-padding-top {
+                    padding-top: 0;
+                }
+            }
+        }
+        .buy-ticket-btn {
+            background-color: #fff;
+            height: 60px;
+            width: 100%;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            overflow: hidden;
+            margin: 0;
+            bottom: 0;
+            left: 0;
+            .buy-wrapper {
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                img {
+                    margin-left: 24px;
+                    margin-right: 30px;
+                    width: 19px;
+                    height: 19px;
+                }
+                .goto-ticket {
+                    display: block;
+                    flex: 1;
+                    height: 44px;
+                    background-image: linear-gradient(-90deg, #fb3333, #ff5269);
+                    box-shadow: 0 0.06rem 0.12rem 0 rgba(251, 51, 51, .3);
+                    border-radius: 25px;
+                    font-size: 17px;
+                    color: #fff;
+                    text-align: center;
+                    line-height: 44px;
+                    margin: 10px;
+                }
+            }
+        }
+        .buy-ticket-btn,
+        .toast {
+            position: fixed;
+            z-index: 10;
+        }
+    }
+}

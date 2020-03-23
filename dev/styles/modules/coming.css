@@ -1,0 +1,152 @@
+.hot_list {
+  background: #f6f6f6; }
+  .hot_list .most_expect {
+    padding: 12px 0 12px 15px;
+    background-color: #fff;
+    margin-bottom: 10px;
+    overflow-y: auto; }
+    .hot_list .most_expect .title {
+      margin: 0;
+      font-size: 14px;
+      color: #333;
+      margin-bottom: 12px; }
+    .hot_list .most_expect .expect_wrap {
+      width: 100%;
+      overflow-x: scroll; }
+      .hot_list .most_expect .expect_wrap .title_list {
+        width: 100%;
+        white-space: nowrap; }
+        .hot_list .most_expect .expect_wrap .title_list .expect_item {
+          display: inline-block;
+          width: 85px;
+          overflow: hidden;
+          margin-right: 10px; }
+          .hot_list .most_expect .expect_wrap .title_list .expect_item .post_img_bg {
+            width: 85px;
+            height: 115px;
+            position: relative;
+            margin-bottom: 6px; }
+          .hot_list .most_expect .expect_wrap .title_list .expect_item .default-img-bg {
+            background-color: #e1e1e1;
+            background-size: 100% 100%; }
+            .hot_list .most_expect .expect_wrap .title_list .expect_item .default-img-bg img {
+              width: 100%; }
+          .hot_list .most_expect .expect_wrap .title_list .expect_item h5 {
+            display: block;
+            font-size: 0.83em;
+            margin-block-start: 1.67em;
+            margin-block-end: 1.67em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+            font-weight: bold; }
+          .hot_list .most_expect .expect_wrap .title_list .expect_item .line-ellipsis {
+            text-overflow: ellipsis;
+            overflow: hidden;
+            white-space: nowrap; }
+          .hot_list .most_expect .expect_wrap .title_list .expect_item .name {
+            margin: 0;
+            font-size: 13px;
+            color: #222;
+            margin-bottom: 3px; }
+          .hot_list .most_expect .expect_wrap .title_list .expect_item p {
+            margin: 0;
+            font-size: 12px;
+            color: #999; }
+  .hot_list .coming_list-wrap {
+    height: 100%;
+    overflow-y: scroll; }
+    .hot_list .coming_list-wrap .coming_list {
+      height: 100%;
+      background-color: #fff; }
+      .hot_list .coming_list-wrap .coming_list .coming_wrap {
+        height: 145px; }
+        .hot_list .coming_list-wrap .coming_list .coming_wrap .g_date {
+          padding: 12px 15px 0;
+          margin: 0;
+          font-size: 14px;
+          color: #333; }
+        .hot_list .coming_list-wrap .coming_list .coming_wrap .coming_item {
+          padding-left: 15px;
+          background-color: #fff; }
+          .hot_list .coming_list-wrap .coming_list .coming_wrap .coming_item .main_block {
+            position: relative;
+            width: 100%; }
+            .hot_list .coming_list-wrap .coming_list .coming_wrap .coming_item .main_block .avatar {
+              width: 64px;
+              height: 90px;
+              position: relative;
+              margin-top: 12px;
+              float: left; }
+              .hot_list .coming_list-wrap .coming_list .coming_wrap .coming_item .main_block .avatar:before {
+                content: "";
+                display: block;
+                position: absolute;
+                width: 46px;
+                height: 46px;
+                background-repeat: no-repeat;
+                background-size: contain; }
+              .hot_list .coming_list-wrap .coming_list .coming_wrap .coming_item .main_block .avatar .image_img_bg {
+                background-color: #e1e1e1;
+                background-size: 100% 100%; }
+                .hot_list .coming_list-wrap .coming_list .coming_wrap .coming_item .main_block .avatar .image_img_bg img {
+                  background-color: transparent;
+                  height: 90px; }
+            .hot_list .coming_list-wrap .coming_list .coming_wrap .coming_item .main_block .coming_content_wrapper {
+              padding: 12px 14px 12px 0;
+              margin-left: 74px;
+              height: 90px;
+              max-height: 90px;
+              position: relative;
+              display: flex; }
+              .hot_list .coming_list-wrap .coming_list .coming_wrap .coming_item .main_block .coming_content_wrapper .content {
+                flex: 1;
+                height: 86.2px;
+                padding-right: 5px;
+                margin-right: 48px;
+                overflow: hidden; }
+                .hot_list .coming_list-wrap .coming_list .coming_wrap .coming_item .main_block .coming_content_wrapper .content .movie_title {
+                  max-height: 24px;
+                  margin-bottom: 7px;
+                  line-height: 24px;
+                  overflow: hidden;
+                  display: flex; }
+                  .hot_list .coming_list-wrap .coming_list .coming_wrap .coming_item .main_block .coming_content_wrapper .content .movie_title .title {
+                    font-size: 17px;
+                    color: #333;
+                    font-weight: 700;
+                    padding-right: 5px;
+                    flex-shrink: 1; }
+                .hot_list .coming_list-wrap .coming_list .coming_wrap .coming_item .main_block .coming_content_wrapper .content .detail {
+                  margin-top: -3px; }
+                  .hot_list .coming_list-wrap .coming_list .coming_wrap .coming_item .main_block .coming_content_wrapper .content .detail .wantsee .wantsee_peo {
+                    color: #faaf00;
+                    font-size: 15px;
+                    font-weight: 600; }
+                  .hot_list .coming_list-wrap .coming_list .coming_wrap .coming_item .main_block .coming_content_wrapper .content .detail .wantsee .people {
+                    font-size: 13px;
+                    margin-left: -2px;
+                    display: inline-block;
+                    color: #666; }
+                  .hot_list .coming_list-wrap .coming_list .coming_wrap .coming_item .main_block .coming_content_wrapper .content .detail .actor {
+                    font-size: 13px;
+                    color: #666; }
+                  .hot_list .coming_list-wrap .coming_list .coming_wrap .coming_item .main_block .coming_content_wrapper .content .detail .line-ellipsis {
+                    text-overflow: ellipsis;
+                    overflow: hidden;
+                    white-space: nowrap; }
+              .hot_list .coming_list-wrap .coming_list .coming_wrap .coming_item .main_block .coming_content_wrapper .button_block {
+                padding-top: 20px;
+                width: 47px; }
+                .hot_list .coming_list-wrap .coming_list .coming_wrap .coming_item .main_block .coming_content_wrapper .button_block .btn {
+                  display: block;
+                  width: 47px;
+                  height: 27px;
+                  line-height: 28px;
+                  text-align: center;
+                  box-sizing: border-box;
+                  background-color: #3C9FE6;
+                  color: #fff;
+                  border-radius: 4px;
+                  white-space: nowrap;
+                  font-size: 12px;
+                  cursor: pointer; }

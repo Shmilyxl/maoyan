@@ -1,0 +1,641 @@
+<section class="detail_contain">
+    <div class="donload_app">
+        <img src="//s0.meituan.net/bs/?f=myfe/canary:/asgard/images/avatar.png" alt="">
+        <div class="app_name_desc">
+            <div class="app_name">猫眼</div>
+            <div class="app_desc">在线选座，热门影视，爱上看电影</div>
+            <a href=" /app?_v_=yes&f=&to=meituanmovie%3A%2F%2Fwww.meituan.com%2Fmovie%3Fid%3D1230121%26nm%3D%25E4%25B8%25AD%25E5%259B%25BD%25E6%259C%25BA%25E9%2595%25BF ">立即打开</a>
+        </div>
+    </div>
+    <div id="app">
+        <div class="movie-page">
+            {{each arr}}
+            <div class="movie-info" style="background-color:#202340">
+
+                <div class="movie-info-top">
+                    <div class="movie-cover">
+                        <a data-bid="b_aN5Ak" href="//m.maoyan.com/movie/1230121/preview"><img class="img noneBg poster" alt="电影封面图" src="{{$value.img.replace(/\/w.h\//,/128.180/)}}" width="100" height="138" /><img class="img noneBg poster-play" alt="" src="//s0.meituan.net/bs/?f=myfe/canary:/asgard/images/movie/poster-play.png"
+                            /></a>
+                    </div>
+                    <div class="movie-desc">
+                        <div class="movie-desc-top">
+                            <div class="movie-cn-name">{{$value.nm}}</div>
+                            <div class="movie-en-name">The Captain</div>
+                            <div class="movie-other-info">
+                                <div class="movie-type"><span class="movie-cat">剧情 / 传记</span><span class="movie-tag"><img class="img noneBg" alt="" src="//s0.meituan.net/bs/?f=myfe/canary:/asgard/images/movie/movie-tag-2DIMAX.png"/></span></div>
+                                <div class="actors">{{$value.star}}}</div>
+                                <div class="movie-show-time"><span>2019-09-30 09:00大陆上映 / 111分钟</span><img class="img noneBg" alt="向右箭头" src="//s0.meituan.net/bs/?f=myfe/canary:/asgard/images/movie/arrow-right.png" style="margin-left:6px;width:5px;height:9px" /></div>
+                            </div>
+                        </div>
+                        <div class="btns"><button data-bid="b_rjonirtp" type="button" class="button want-to-watch"><img class="img noneBg" alt="想看" src="//s0.meituan.net/bs/?f=myfe/canary:/asgard/images/movie/want-to-watch.png"/><span>想看</span></button>
+                            <a href="#" data-bid="b_53up23as" data-view-bid="b_movie_b_53up23as_mv" data-lab="{&quot;position&quot;:&quot;socre&quot;}"><img class="img noneBg" alt="看过" src="//s0.meituan.net/bs/?f=myfe/canary:/asgard/images/movie/star.png" /><span>看过</span></a>
+                        </div>
+                    </div>
+                    {{/each}}
+                </div>
+
+                <div class="real-time-word-of-mouth">
+                    <div class="top">
+                        <div class="left"><img class="img noneBg" alt="logo" src="//s0.meituan.net/bs/?f=myfe/canary:/asgard/images/movie/logo.png" /><span>实时口碑</span></div>
+                        <div class="right"><span class="num">561040</span><span>人想看</span><span class="num watched">1223683</span><span>人看过</span></div>
+                    </div>
+                    <div class="middle">
+                        <div class="left"><span class="score">9.4</span><span class="people-grade"><span>1232679</span><span>人评</span></span>
+                        </div>
+                        <div class="right">
+                            <div class="stars-percent-bar">
+                                <div class="stars"><img class="img noneBg" alt="star" src="//s0.meituan.net/bs/?f=myfe/canary:/asgard/images/movie/star-not-graded.png" /><img class="img noneBg" alt="star" src="//s0.meituan.net/bs/?f=myfe/canary:/asgard/images/movie/star-not-graded.png"
+                                    /><img class="img noneBg" alt="star" src="//s0.meituan.net/bs/?f=myfe/canary:/asgard/images/movie/star-not-graded.png" /><img class="img noneBg" alt="star" src="//s0.meituan.net/bs/?f=myfe/canary:/asgard/images/movie/star-not-graded.png"
+                                    /><img class="img noneBg" alt="star" src="//s0.meituan.net/bs/?f=myfe/canary:/asgard/images/movie/star-not-graded.png" /></div>
+                                <div class="bar">
+                                    <div class="percent" style="width:88.0%"></div>
+                                </div>
+                                <div class="percent-value"><span>88.0</span><span>%</span></div>
+                            </div>
+                            <div class="stars-percent-bar">
+                                <div class="stars"><img class="img noneBg" alt="star" src="//s0.meituan.net/bs/?f=myfe/canary:/asgard/images/movie/star-not-graded.png" /><img class="img noneBg" alt="star" src="//s0.meituan.net/bs/?f=myfe/canary:/asgard/images/movie/star-not-graded.png"
+                                    /><img class="img noneBg" alt="star" src="//s0.meituan.net/bs/?f=myfe/canary:/asgard/images/movie/star-not-graded.png" /><img class="img noneBg" alt="star" src="//s0.meituan.net/bs/?f=myfe/canary:/asgard/images/movie/star-not-graded.png"
+                                    /></div>
+                                <div class="bar">
+                                    <div class="percent" style="width:6.6%"></div>
+                                </div>
+                                <div class="percent-value"><span>6.6</span><span>%</span></div>
+                            </div>
+                            <div class="stars-percent-bar">
+                                <div class="stars"><img class="img noneBg" alt="star" src="//s0.meituan.net/bs/?f=myfe/canary:/asgard/images/movie/star-not-graded.png" /><img class="img noneBg" alt="star" src="//s0.meituan.net/bs/?f=myfe/canary:/asgard/images/movie/star-not-graded.png"
+                                    /><img class="img noneBg" alt="star" src="//s0.meituan.net/bs/?f=myfe/canary:/asgard/images/movie/star-not-graded.png" /></div>
+                                <div class="bar">
+                                    <div class="percent" style="width:1.5%"></div>
+                                </div>
+                                <div class="percent-value"><span>1.5</span><span>%</span></div>
+                            </div>
+                            <div class="stars-percent-bar">
+                                <div class="stars"><img class="img noneBg" alt="star" src="//s0.meituan.net/bs/?f=myfe/canary:/asgard/images/movie/star-not-graded.png" /><img class="img noneBg" alt="star" src="//s0.meituan.net/bs/?f=myfe/canary:/asgard/images/movie/star-not-graded.png"
+                                    /></div>
+                                <div class="bar">
+                                    <div class="percent" style="width:1.2%"></div>
+                                </div>
+                                <div class="percent-value"><span>1.2</span><span>%</span></div>
+                            </div>
+                            <div class="stars-percent-bar">
+                                <div class="stars"><img class="img noneBg" alt="star" src="//s0.meituan.net/bs/?f=myfe/canary:/asgard/images/movie/star-not-graded.png" /></div>
+                                <div class="bar">
+                                    <div class="percent" style="width:2.6%"></div>
+                                </div>
+                                <div class="percent-value"><span>2.6</span><span>%</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="separator-line"></div>
+                    <div class="bottom">
+                        <div class="left"><span class="order">NO.2</span><span class="separator-line"></span><span>热映口碑榜</span></div>
+                        <div class="right"></div>
+                    </div>
+                </div>
+                <div class="brief-introduction">
+                    <div class="title"><span>简介</span></div>
+                    <div data-bid="b_y93QJ" class="content height-limit">
+                        <p id="brief-introduction-content" class="">根据2018年5月14日四川航空3U8633航班机组成功处置特情真实事件改编。机组执行航班任务时，在万米高空突遇驾驶舱风挡玻璃爆裂脱落、座舱释压的极端罕见险情，生死关头，他们临危不乱、果断应对、正确处置，确保了机上全部人员的生命安全，创造了世界民航史上的奇迹。</p>
+                    </div>
+                </div>
+                <div class="actors">
+                    <div class="title"><span>演职人员</span><a class="go-to-all-actors" href="//m.maoyan.com/movie/1230121/credits"><span>全部</span><img class="img noneBg" alt="arrow-right" src="//s0.meituan.net/bs/?f=myfe/canary:/asgard/images/movie/arrow-right.png"/></a></div>
+                    <div class="actor-list">
+                        <ul>
+                            <li class="">
+                                <a data-bid="b_hxG9z" href="//m.maoyan.com/celebrity/5402"><img class="img noneBg" alt="avatar" src="//p1.meituan.net/movie/c2b823eb9843a384fc72c44030bb34bd29204.jpg@160w_224h_1e_1c" width="80" height="112" e="1" c="1" /><span class="name">刘伟强</span><span class="role">导演</span></a>
+                            </li>
+                            <li class="left-margin">
+                                <a data-bid="b_hxG9z" href="//m.maoyan.com/celebrity/28901"><img class="img noneBg" alt="avatar" src="//p1.meituan.net/movie/c43af5e137d4f2bde72e635bfc16dbdc32830.jpg@160w_224h_1e_1c" width="80" height="112" e="1" c="1" /><span class="name">张涵予</span><span class="role">饰 刘长健</span></a>
+                            </li>
+                            <li class="left-margin">
+                                <a data-bid="b_hxG9z" href="//m.maoyan.com/celebrity/354021"><img class="img noneBg" alt="avatar" src="//p1.meituan.net/moviemachine/269c9ce921839e34a28dbf88f451299c36850.jpg@160w_224h_1e_1c" width="80" height="112" e="1" c="1" /><span class="name">欧豪</span><span class="role">饰 徐奕辰</span></a>
+                            </li>
+                            <li class="left-margin">
+                                <a data-bid="b_hxG9z" href="//m.maoyan.com/celebrity/357068"><img class="img noneBg" alt="avatar" src="//p1.meituan.net/movie/b9e72fed100880e2866bc55562052ab351758.jpg@160w_224h_1e_1c" width="80" height="112" e="1" c="1" /><span class="name">杜江</span><span class="role">饰 梁栋</span></a>
+                            </li>
+                            <li class="left-margin">
+                                <a data-bid="b_hxG9z" href="//m.maoyan.com/celebrity/587"><img class="img" alt="avatar" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="80" height="112" e="1" c="1" /><span class="name">袁泉</span><span class="role">饰 毕男</span></a>
+                            </li>
+                            <li class="left-margin">
+                                <a data-bid="b_hxG9z" href="//m.maoyan.com/celebrity/1031879"><img class="img" alt="avatar" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="80" height="112" e="1" c="1" /><span class="name">张天爱</span><span class="role">饰 黄佳</span></a>
+                            </li>
+                            <li class="left-margin">
+                                <a data-bid="b_hxG9z" href="//m.maoyan.com/celebrity/29349"><img class="img" alt="avatar" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="80" height="112" e="1" c="1" /><span class="name">李沁</span><span class="role">饰 周雅文</span></a>
+                            </li>
+                            <li class="left-margin">
+                                <a data-bid="b_hxG9z" href="//m.maoyan.com/celebrity/773"><img class="img" alt="avatar" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="80" height="112" e="1" c="1" /><span class="name">雅玫</span><span class="role">饰 张秋悦</span></a>
+                            </li>
+                            <li class="left-margin">
+                                <a data-bid="b_hxG9z" href="//m.maoyan.com/celebrity/2931973"><img class="img" alt="avatar" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="80" height="112" e="1" c="1" /><span class="name">杨祺如</span><span class="role">饰 杨慧</span></a>
+                            </li>
+                            <li class="left-margin">
+                                <a data-bid="b_hxG9z" href="//m.maoyan.com/celebrity/2899092"><img class="img" alt="avatar" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="80" height="112" e="1" c="1" /><span class="name">高戈</span><span class="role">饰 吴言</span></a>
+                            </li>
+                            <li class="left-margin">
+                                <a data-bid="b_hxG9z" href="//m.maoyan.com/celebrity/191771"><img class="img" alt="avatar" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="80" height="112" e="1" c="1" /><span class="name">黄志忠</span></a>
+                            </li>
+                            <li class="left-margin">
+                                <a data-bid="b_hxG9z" href="//m.maoyan.com/celebrity/2739"><img class="img" alt="avatar" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="80" height="112" e="1" c="1" /><span class="name">朱亚文</span></a>
+                            </li>
+                            <li class="left-margin">
+                                <a data-bid="b_hxG9z" href="//m.maoyan.com/celebrity/596"><img class="img" alt="avatar" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="80" height="112" e="1" c="1" /><span class="name">李现</span></a>
+                            </li>
+                            <li class="left-margin">
+                                <a data-bid="b_hxG9z" href="//m.maoyan.com/celebrity/28587"><img class="img" alt="avatar" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="80" height="112" e="1" c="1" /><span class="name">杨颖</span></a>
+                            </li>
+                            <li class="left-margin">
+                                <a data-bid="b_hxG9z" href="//m.maoyan.com/celebrity/8589"><img class="img" alt="avatar" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="80" height="112" e="1" c="1" /><span class="name">陈数</span></a>
+                            </li>
+                            <li class="left-margin">
+                                <a data-bid="b_hxG9z" href="//m.maoyan.com/celebrity/126943"><img class="img" alt="avatar" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="80" height="112" e="1" c="1" /><span class="name">焦俊艳</span></a>
+                            </li>
+                            <li class="left-margin">
+                                <a data-bid="b_hxG9z" href="//m.maoyan.com/celebrity/561"><img class="img" alt="avatar" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="80" height="112" e="1" c="1" /><span class="name">吴樾</span></a>
+                            </li>
+                            <li class="left-margin">
+                                <a data-bid="b_hxG9z" href="//m.maoyan.com/celebrity/8602"><img class="img" alt="avatar" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="80" height="112" e="1" c="1" /><span class="name">阚清子</span></a>
+                            </li>
+                            <li class="left-margin">
+                                <a data-bid="b_hxG9z" href="//m.maoyan.com/celebrity/16495"><img class="img" alt="avatar" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="80" height="112" e="1" c="1" /><span class="name">余皑磊</span></a>
+                            </li>
+                            <li class="left-margin">
+                                <a data-bid="b_hxG9z" href="//m.maoyan.com/celebrity/472339"><img class="img" alt="avatar" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="80" height="112" e="1" c="1" /><span class="name">小爱</span></a>
+                            </li>
+                            <li class="left-margin">
+                                <a data-bid="b_hxG9z" href="//m.maoyan.com/celebrity/3528"><img class="img" alt="avatar" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="80" height="112" e="1" c="1" /><span class="name">李岷城</span></a>
+                            </li>
+                            <li class="left-margin">
+                                <a data-bid="b_hxG9z" href="//m.maoyan.com/celebrity/5624"><img class="img" alt="avatar" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="80" height="112" e="1" c="1" /><span class="name">冯文娟</span></a>
+                            </li>
+                            <li class="left-margin">
+                                <a data-bid="b_hxG9z" href="//m.maoyan.com/celebrity/2397336"><img class="img" alt="avatar" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="80" height="112" e="1" c="1" /><span class="name">张磊</span><span class="role">饰 吴晨光</span></a>
+                            </li>
+                            <li class="left-margin">
+                                <a data-bid="b_hxG9z" href="//m.maoyan.com/celebrity/2919874"><img class="img" alt="avatar" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="80" height="112" e="1" c="1" /><span class="name">Alex Pychtin</span></a>
+                            </li>
+                            <li class="left-margin">
+                                <a data-bid="b_hxG9z" href="//m.maoyan.com/celebrity/13847"><img class="img" alt="avatar" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="80" height="112" e="1" c="1" /><span class="name">周波</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="videos-photos">
+                    <div class="title"><span>视频剧照</span><a class="go-to-all" href="//m.maoyan.com/movie/1230121/photos"><span>全部剧照</span><img class="img noneBg" alt="arrow-right" src="//s0.meituan.net/bs/?f=myfe/canary:/asgard/images/movie/arrow-right.png"/></a></div>
+                    <div class="videos-photos-list">
+                        <ul>
+                            <li class="video">
+                                <a data-bid="b_isl6c93g" href="//m.maoyan.com/movie/1230121/preview"><img class="img noneBg" alt="avatar" src="//p1.meituan.net/movie/63df39d842a1f2044b10b949222d8753307159.jpg@280w_186h_1e_1c" width="140" height="93" e="1" c="1" />
+                                    <div class="play">
+                                        <div class="triangle"></div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="left-margin">
+                                <a data-bid="b_isl6c93g" href="//m.maoyan.com/movie/1230121/stages?idx=0"><img class="img noneBg" alt="avatar" src="//p0.meituan.net/movie/2e51405b0d686489c510c762efed640898498.jpg@420w_279h_1e_1c" width="140" height="93" e="1" c="1" /></a>
+                            </li>
+                            <li class="left-margin">
+                                <a data-bid="b_isl6c93g" href="//m.maoyan.com/movie/1230121/stages?idx=1"><img class="img noneBg" alt="avatar" src="//p0.meituan.net/movie/bb748e0bcb92471bdf6c280319d3000589393.jpg@420w_279h_1e_1c" width="140" height="93" e="1" c="1" /></a>
+                            </li>
+                            <li class="left-margin">
+                                <a data-bid="b_isl6c93g" href="//m.maoyan.com/movie/1230121/stages?idx=2"><img class="img" alt="avatar" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="140" height="93" e="1" c="1" /></a>
+                            </li>
+                            <li class="left-margin">
+                                <a data-bid="b_isl6c93g" href="//m.maoyan.com/movie/1230121/stages?idx=3"><img class="img" alt="avatar" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="140" height="93" e="1" c="1" /></a>
+                            </li>
+                            <li class="left-margin">
+                                <a data-bid="b_isl6c93g" href="//m.maoyan.com/movie/1230121/stages?idx=4"><img class="img" alt="avatar" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="140" height="93" e="1" c="1" /></a>
+                            </li>
+                            <li class="left-margin">
+                                <a data-bid="b_isl6c93g" href="//m.maoyan.com/movie/1230121/stages?idx=5"><img class="img" alt="avatar" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="140" height="93" e="1" c="1" /></a>
+                            </li>
+                            <li class="left-margin">
+                                <a data-bid="b_isl6c93g" href="//m.maoyan.com/movie/1230121/stages?idx=6"><img class="img" alt="avatar" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="140" height="93" e="1" c="1" /></a>
+                            </li>
+                            <li class="left-margin">
+                                <a data-bid="b_isl6c93g" href="//m.maoyan.com/movie/1230121/stages?idx=7"><img class="img" alt="avatar" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="140" height="93" e="1" c="1" /></a>
+                            </li>
+                            <li class="left-margin">
+                                <a data-bid="b_isl6c93g" href="//m.maoyan.com/movie/1230121/stages?idx=8"><img class="img" alt="avatar" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="140" height="93" e="1" c="1" /></a>
+                            </li>
+                            <li class="left-margin">
+                                <a data-bid="b_isl6c93g" href="//m.maoyan.com/movie/1230121/stages?idx=9"><img class="img" alt="avatar" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="140" height="93" e="1" c="1" /></a>
+                            </li>
+                            <li class="left-margin">
+                                <a data-bid="b_isl6c93g" href="//m.maoyan.com/movie/1230121/stages?idx=10"><img class="img" alt="avatar" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="140" height="93" e="1" c="1" /></a>
+                            </li>
+                            <li class="left-margin">
+                                <a data-bid="b_isl6c93g" href="//m.maoyan.com/movie/1230121/stages?idx=11"><img class="img" alt="avatar" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="140" height="93" e="1" c="1" /></a>
+                            </li>
+                            <li class="left-margin">
+                                <a data-bid="b_isl6c93g" href="//m.maoyan.com/movie/1230121/stages?idx=12"><img class="img" alt="avatar" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="140" height="93" e="1" c="1" /></a>
+                            </li>
+                            <li class="left-margin">
+                                <a data-bid="b_isl6c93g" href="//m.maoyan.com/movie/1230121/stages?idx=13"><img class="img" alt="avatar" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="140" height="93" e="1" c="1" /></a>
+                            </li>
+                            <li class="left-margin">
+                                <a data-bid="b_isl6c93g" href="//m.maoyan.com/movie/1230121/stages?idx=14"><img class="img" alt="avatar" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="140" height="93" e="1" c="1" /></a>
+                            </li>
+                            <li class="left-margin">
+                                <a data-bid="b_isl6c93g" href="//m.maoyan.com/movie/1230121/stages?idx=15"><img class="img" alt="avatar" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="140" height="93" e="1" c="1" /></a>
+                            </li>
+                            <li class="left-margin">
+                                <a data-bid="b_isl6c93g" href="//m.maoyan.com/movie/1230121/stages?idx=16"><img class="img" alt="avatar" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="140" height="93" e="1" c="1" /></a>
+                            </li>
+                            <li class="left-margin">
+                                <a data-bid="b_isl6c93g" href="//m.maoyan.com/movie/1230121/stages?idx=17"><img class="img" alt="avatar" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="140" height="93" e="1" c="1" /></a>
+                            </li>
+                            <li class="left-margin">
+                                <a data-bid="b_isl6c93g" href="//m.maoyan.com/movie/1230121/stages?idx=18"><img class="img" alt="avatar" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="140" height="93" e="1" c="1" /></a>
+                            </li>
+                            <li class="left-margin">
+                                <a data-bid="b_isl6c93g" href="//m.maoyan.com/movie/1230121/stages?idx=19"><img class="img" alt="avatar" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="140" height="93" e="1" c="1" /></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <section class="discussion">
+                <header><span class="title">讨论</span></header>
+                <div class="comments">
+                    <article class="no-padding-top">
+                        <div class="right">
+                            <div class="top">
+                                <div>
+                                    <div class="name-box"><span class="name">AAAA杨嘉</span><img class="img noneBg level-icon" alt="level-icon" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="31" height="15" /></div>
+                                    <div><span class="grade-score">给这部电影打了10分</span></div>
+                                </div>
+                            </div>
+                            <div class="middle"><a data-bid="b_h7xvl" href="//m.maoyan.com/movie/1230121/replies/1084153076"><span class="comment-content">今天从上午9点10分一直泡在电影院到4点多，共看了三部
+        《我和我的祖国》:没有跌宕起伏，就是明星多，但是对国家的繁荣富强感同身受，那些没体会老一辈不容易的可以看看
+        《攀登者》是真的是国庆档最失望的一部，登山跟玩儿似得，其实改名叫《坑人者》剧情是西藏那女的坑井柏然，张铎坑吴京，胡哥坑医生，胡哥坑自己，章子怡坑吴京，强行煽情，严肃题材竟占感情戏占一半，对比，都是国家的重要时刻，一个毫秒必争不能出错。另一个感觉登山都是争吵，没一个主事儿的
+        最后说说《中国机长》，国庆档最大惊喜，没有专门坑队友的，没有强行煽情，没有**陪衬，也没有多么个人主义，张涵予的沉着，袁泉的冷静，乘务组的专业，欧豪的成长。</span></a></div>
+                            <div class="bottom">
+                                <div><time class="time" title="1569830580000">09-30</time></div>
+                                <div class="right"><img class="img noneBg thumb-up" alt="thumb-up" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="10" height="10" /><span class="praise-num">36148</span>
+                                    <a class="goto-comments" href="//m.maoyan.com/movie/1230121/replies/1084153076"><img class="img noneBg comment-icon" alt="comment" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="12" height="12" /><span class="comments-num">10031</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <div class="separator-line"></div>
+                    <article class="">
+                        <div class="right">
+                            <div class="top">
+                                <div>
+                                    <div class="name-box"><span class="name">uyd743423202</span><img class="img noneBg level-icon" alt="level-icon" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="31" height="15" /></div>
+                                    <div><span class="grade-score">给这部电影打了10分</span></div>
+                                </div>
+                            </div>
+                            <div class="middle"><a data-bid="b_h7xvl" href="//m.maoyan.com/movie/1230121/replies/1084056331"><span class="comment-content">太精彩了，中国机长</span></a></div>
+                            <div class="bottom">
+                                <div><time class="time" title="1569814620000">09-30</time></div>
+                                <div class="right"><img class="img noneBg thumb-up" alt="thumb-up" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="10" height="10" /><span class="praise-num">17158</span>
+                                    <a class="goto-comments" href="//m.maoyan.com/movie/1230121/replies/1084056331"><img class="img noneBg comment-icon" alt="comment" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="12" height="12" /><span class="comments-num">1642</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <div class="separator-line"></div>
+                    <article class="">
+                        <div class="right">
+                            <div class="top">
+                                <div>
+                                    <div class="name-box"><span class="name">范范范守文</span><img class="img noneBg level-icon" alt="level-icon" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="31" height="15" /></div>
+                                    <div><span class="grade-score">给这部电影打了10分</span></div>
+                                </div>
+                            </div>
+                            <div class="middle"><a data-bid="b_h7xvl" href="//m.maoyan.com/movie/1230121/replies/1084088752"><span class="comment-content">很棒，机长临危不惧，不愧是退伍军人</span></a></div>
+                            <div class="bottom">
+                                <div><time class="time" title="1569819660000">09-30</time></div>
+                                <div class="right"><img class="img noneBg thumb-up" alt="thumb-up" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="10" height="10" /><span class="praise-num">14822</span>
+                                    <a class="goto-comments" href="//m.maoyan.com/movie/1230121/replies/1084088752"><img class="img noneBg comment-icon" alt="comment" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="12" height="12" /><span class="comments-num">546</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <div class="separator-line"></div>
+                <footer><a href="/app?_v_=yes&amp;f=&amp;to=meituanmovie%3A%2F%2Fwww.meituan.com%2Fmovie%3Fid%3D1230121%26nm%3D%25E4%25B8%25AD%25E5%259B%25BD%25E6%259C%25BA%25E9%2595%25BF" class="link goto-all-comments" data-event="donwload3" link="meituanmovie://www.meituan.com/movie?id=1230121&amp;nm=%E4%B8%AD%E5%9B%BD%E6%9C%BA%E9%95%BF"
+                        data-bid="b_53up23as" data-view-bid="b_movie_b_53up23as_mv" data-lab="{&quot;movieId&quot;:1230121,&quot;position&quot;:&quot;comment&quot;}"><span>打开App，340523人正在讨论</span><img class="img noneBg arrow-right-red" alt="arrow-r-red" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="6" height="11"/></a></footer>
+            </section>
+            <section class="questions-and-answers">
+                <header><span>猫眼问答</span></header>
+                <div class="question-answer-list one-px-border-bottom one-px-border-top">
+                    <article class="question-answer">
+                        <a data-bid="b_u3wxm0jl" href="//m.maoyan.com/qanda/question/71557486">
+                            <div class="question">当中国机长遇上美国队长，你想说点什么？</div>
+                            <div class="answer-num">2682个回答</div>
+                            <div class="answer">美队坐在中国客机上，遇到空难，中国机长成功迫降救了所有人包括美队，哈哈哈哈，我是个好编剧🤔🤔🤔<br/></div>
+                        </a>
+                    </article>
+                    <div class="separator-line"></div>
+                    <article class="question-answer">
+                        <a data-bid="b_u3wxm0jl" href="//m.maoyan.com/qanda/question/70697446">
+                            <div class="question">你对《中国机长》有哪些期待？</div>
+                            <div class="answer-num">3482个回答</div>
+                            <div class="answer">真实，真实还原当时情况，感受生命，感受责任<br/></div>
+                        </a>
+                    </article>
+                    <div class="separator-line"></div>
+                    <article class="question-answer">
+                        <a data-bid="b_u3wxm0jl" href="//m.maoyan.com/qanda/question/68675138">
+                            <div class="question">有没有和我一样第一眼看成中国队长的？</div>
+                            <div class="answer-num">1637个回答</div>
+                            <div class="answer">我也看成了中国，队长<br/></div>
+                        </a>
+                    </article>
+                </div>
+                <footer><a href="/app?_v_=yes&amp;f=&amp;to=meituanmovie%3A%2F%2Fwww.meituan.com%2Fmovie%3Fid%3D1230121%26nm%3D%25E4%25B8%25AD%25E5%259B%25BD%25E6%259C%25BA%25E9%2595%25BF" class="link goto-all-qa" data-event="donwload3" link="meituanmovie://www.meituan.com/movie?id=1230121&amp;nm=%E4%B8%AD%E5%9B%BD%E6%9C%BA%E9%95%BF"
+                        data-bid="b_53up23as" data-view-bid="b_movie_b_53up23as_mv" data-lab="{&quot;movieId&quot;:1230121,&quot;position&quot;:&quot;question&quot;}"><span>打开App，查看全部1523个问答</span><img class="img noneBg arrow-right-red" alt="arrow-r-red" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="6" height="11"/></a></footer>
+            </section>
+            <section class="long-comments">
+                <header><span class="title">长评</span></header>
+                <div class="comments">
+                    <article class="no-padding-top">
+                        <a data-bid="b_u5uzpetc" class="comment-wrap" href="//m.maoyan.com/topic/1037142">
+                            <div><img class="img noneBg avatar" alt="avatar" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="34" height="34" /></div>
+                            <div class="right">
+                                <div class="top">
+                                    <div>
+                                        <div class="name-box"><span class="name">KYk132811051</span><img class="img noneBg level-icon" alt="level-icon" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="31" height="15" /></div>
+                                        <div><span class="grade-score">给这部电影打了10分</span></div>
+                                    </div>
+                                </div>
+                                <div class="middle"><span class="comment-title">生死面前，没有难度高低</span><span class="comment-content">没想到这么快，川航5·14事件过去了一年了，有些话也想说很久了。
+        对于这样一个“起死回生”的事件，除了偶尔有表彰英雄的新闻和翻拍电影《中国机长》的消息，其真实面貌似乎渐渐被淡忘了。
+        
+        同时，英雄机组已</span></div>
+                                <div class="bottom">
+                                    <div><time class="time" title="1557822513000">05-14</time></div>
+                                    <div class="right">
+                                        <div class="goto-comments"><img class="img noneBg comment-icon" alt="comment" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="12" height="11" /><span class="comments-num">30</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </article>
+                    <div class="separator-line"></div>
+                    <article class="">
+                        <a data-bid="b_u5uzpetc" class="comment-wrap" href="//m.maoyan.com/topic/1051353">
+                            <div><img class="img noneBg avatar" alt="avatar" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="34" height="34" /></div>
+                            <div class="right">
+                                <div class="top">
+                                    <div>
+                                        <div class="name-box"><span class="name">桃夭</span><img class="img noneBg level-icon" alt="level-icon" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="31" height="15" /></div>
+                                        <div><span class="grade-score">给这部电影打了10分</span></div>
+                                    </div>
+                                </div>
+                                <div class="middle"><span class="comment-title">《中国机长》杜江，用细节诠释专业</span><span class="comment-content">昨天去看了电影《中国机长》的首映，可以说这部影片，超高还原地讲述了“5·14川航航班备降成都事件”所经历地那惊心动魄地35分钟。
+        听说导演刘伟强为了给观众一次身临其境的体验，特意去打造了一个1：1的模</span></div>
+                                <div class="bottom">
+                                    <div><time class="time" title="1569649771000">09-28</time></div>
+                                    <div class="right">
+                                        <div class="goto-comments"><img class="img noneBg comment-icon" alt="comment" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="12" height="11" /><span class="comments-num">11</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </article>
+                    <div class="separator-line"></div>
+                    <article class="">
+                        <a data-bid="b_u5uzpetc" class="comment-wrap" href="//m.maoyan.com/topic/1051117">
+                            <div><img class="img noneBg avatar" alt="avatar" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="34" height="34" /></div>
+                            <div class="right">
+                                <div class="top">
+                                    <div>
+                                        <div class="name-box"><span class="name">打死你个龟孙儿</span><img class="img noneBg level-icon" alt="level-icon" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="31" height="15" /></div>
+                                        <div><span class="grade-score">给这部电影打了10分</span></div>
+                                    </div>
+                                </div>
+                                <div class="middle"><span class="comment-title">看完机长，我仿佛亲身经历了一场空难</span><span class="comment-content">终于等到这部川航真实事件改编的电影，之前就一直在关注这个新闻，有幸提前看了首映，第一观感就是还原度和代入感都太！强！了！
+        
+        还原度来自1：1搭建的拍摄场景，剧组的用心程度可见一斑，而代入感则归功于演员</span></div>
+                                <div class="bottom">
+                                    <div><time class="time" title="1569475895000">09-26</time></div>
+                                    <div class="right">
+                                        <div class="goto-comments"><img class="img noneBg comment-icon" alt="comment" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="12" height="11" /><span class="comments-num">11</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+                <div class="separator-line"></div>
+                <footer><a href="/app?_v_=yes&amp;f=&amp;to=meituanmovie%3A%2F%2Fwww.meituan.com%2Fmovie%3Fid%3D1230121%26nm%3D%25E4%25B8%25AD%25E5%259B%25BD%25E6%259C%25BA%25E9%2595%25BF" class="link goto-all-comments" data-event="_app?_v_=yes&amp;f=&amp;to=meituanmovie%3A%2F%2Fwww.meituan.com%2Fmovie%3Fid%3D1230121%26nm%3D%25E4%25B8%25AD%25E5%259B%25BD%25E6%259C%25BA%25E9%2595%25BF"
+                        link="meituanmovie://www.meituan.com/movie?id=1230121&amp;nm=%E4%B8%AD%E5%9B%BD%E6%9C%BA%E9%95%BF" data-bid="b_53up23as" data-view-bid="b_movie_b_53up23as_mv" data-lab="{&quot;position&quot;:&quot;long_comment&quot;}"><span>打开App，查看全部53条长评</span><img class="img noneBg arrow-right-red" alt="arrow-r-red" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="6" height="11"/></a></footer>
+            </section>
+            <section class="film-music">
+                <a data-bid="b_DaJkJ" href="//m.maoyan.com/movie/1230121/extras/ost">
+                    <header>
+                        <div>电影原声</div>
+                        <div class="right"><span>3首</span><img class="img noneBg" alt="" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="6" /></div>
+                    </header>
+                    <div class="music-box">
+                        <div class="music-box-inner-wrap">
+                            <div class="music-icon-box"><img class="img noneBg" alt="" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" height="70" /></div>
+                            <div class="music-info">
+                                <div class="music-info-inner">
+                                    <div class="name">我爱祖国的蓝天</div>
+                                    <div class="author">毛阿敏</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </section>
+            <section class="store-bill">
+                <header>
+                    <div>正版周边</div>
+                    <div class="right"><a href="//m.maoyan.com/store?entry=moviepage"><span>全部</span><img class="img noneBg" alt="" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="7"/></a></div>
+                </header>
+                <div class="store-box ">
+                    <ul>
+                        <li>
+                            <a data-bid="b_wa0cr" href="//m.maoyan.com/store/detail/100269594?entry=moviepage"><img class="img noneBg" alt="" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="105" height="105" />
+                                <div class="detail-info">
+                                    <div class="name">中国机长爆米花桶</div>
+                                    <div class="prices"><span class="price">29</span><span class="price-unit">元</span><span class="price-retail-name">零售价</span><span class="price-retail">99</span><span class="">元</span></div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a data-bid="b_wa0cr" href="//m.maoyan.com/store/detail/100269598?entry=moviepage"><img class="img noneBg" alt="" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="105" height="105" />
+                                <div class="detail-info">
+                                    <div class="name">中国机长薄壁杯</div>
+                                    <div class="prices"><span class="price">19.9</span><span class="price-unit">元</span><span class="price-retail-name">零售价</span><span class="price-retail">99</span><span class="">元</span></div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a data-bid="b_wa0cr" href="//m.maoyan.com/store/detail/100269601?entry=moviepage"><img class="img noneBg" alt="" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="105" height="105" />
+                                <div class="detail-info">
+                                    <div class="name">中国机长吸管杯</div>
+                                    <div class="prices"><span class="price">35</span><span class="price-unit">元</span><span class="price-retail-name">零售价</span><span class="price-retail">99</span><span class="">元</span></div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a data-bid="b_wa0cr" href="//m.maoyan.com/store/detail/100269599?entry=moviepage"><img class="img noneBg" alt="" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="105" height="105" />
+                                <div class="detail-info">
+                                    <div class="name">中国机长棒球帽</div>
+                                    <div class="prices"><span class="price">55</span><span class="price-unit">元</span><span class="price-retail-name">零售价</span><span class="price-retail">99</span><span class="">元</span></div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a data-bid="b_wa0cr" href="//m.maoyan.com/store/detail/100269604?entry=moviepage"><img class="img noneBg" alt="" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="105" height="105" />
+                                <div class="detail-info">
+                                    <div class="name">造型爆米花桶</div>
+                                    <div class="prices"><span class="price">59</span><span class="price-unit">元</span><span class="price-retail-name">零售价</span><span class="price-retail">99</span><span class="">元</span></div>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="box-office">
+                <a data-bid="b_iawb2fuh" href="//m.maoyan.com/movie/1230121/box">
+                    <header><span class="title">票房</span>
+                        <div class="goto-detail"><span>票房详情</span><img class="img noneBg" alt="arrow-right" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="5" height="8" /></div>
+                    </header>
+                    <div class="data-box">
+                        <div class="item">
+                            <div class="value">1</div>
+                            <div class="name">昨日排名</div>
+                        </div>
+                        <div class="item">
+                            <div class="value">174,594</div>
+                            <div class="name">首周票房(万)</div>
+                        </div>
+                        <div class="item">
+                            <div class="value">244,542</div>
+                            <div class="name">累计票房(万)</div>
+                        </div>
+                    </div>
+                </a>
+            </section>
+            <section class="related-informations">
+                <header class="one-px-border-bottom"><span class="title">相关快讯</span><a href="/app?_v_=yes&amp;f=&amp;to=meituanmovie%3A%2F%2Fwww.meituan.com%2Fmovie%3Fid%3D1230121%26nm%3D%25E4%25B8%25AD%25E5%259B%25BD%25E6%259C%25BA%25E9%2595%25BF" class="link goto-all" data-event="donwload3"
+                        link="meituanmovie://www.meituan.com/movie?id=1230121&amp;nm=%E4%B8%AD%E5%9B%BD%E6%9C%BA%E9%95%BF"><span>全部</span><img class="img noneBg" alt="arrow-right" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="6" height="11"/></a></header>
+                <div class="informations">
+                    <article class="information one-px-border-bottom mb ">
+                        <a data-bid="b_YIImV" href="//m.maoyan.com/information/73443">
+                            <div class="top "><img class="img noneBg" alt="" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="110" height="78" e="1" c="1" /><span class="title">《中国机长》票房破22亿曝全新特辑，揭秘万米高空的平凡英雄</span></div>
+                            <div class="bottom">
+                                <div><span class="author">猫眼电影</span><time class="time" title="1570845216000">2天前</time></div>
+                                <div class="right"><img class="img noneBg read-icon" alt="" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" height="12" /><span class="read-num">5166</span><img class="img noneBg comment-icon" alt="" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                                        width="12" height="10" /><span class="comment-num">1</span></div>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="information   mt">
+                        <a data-bid="b_YIImV" href="//m.maoyan.com/information/73339">
+                            <div class="top "><img class="img noneBg" alt="" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="110" height="78" e="1" c="1" /><span class="title">胡夏献唱《中国机长》插曲MV曝光，口碑持续发酵票房突破21亿</span></div>
+                            <div class="bottom">
+                                <div><span class="author">猫眼电影</span><time class="time" title="1570694526000">3天前</time></div>
+                                <div class="right"><img class="img noneBg read-icon" alt="" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" height="12" /><span class="read-num">4943</span><img class="img noneBg comment-icon" alt="" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                                        width="12" height="10" /><span class="comment-num">1</span></div>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+            </section>
+            <section class="related-movies">
+                <header><span>相关影片</span></header>
+                <div class="movies">
+                    <ul>
+                        <li>
+                            <a data-bid="b_8W5s2" href="/asgard/movie/1284333">
+                                <div class="img-box"><img class="img noneBg" alt="" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="96" height="134" />
+                                    <div class="img-mask"></div>
+                                    <div class="grade"><span>5349 人想看</span></div>
+                                </div><span class="name">樵夫·廖俊波</span></a>
+                        </li>
+                        <li>
+                            <a data-bid="b_8W5s2" href="/asgard/movie/195">
+                                <div class="img-box"><img class="img noneBg" alt="" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="96" height="134" />
+                                    <div class="img-mask"></div>
+                                    <div class="grade"><span>7624 人想看</span></div>
+                                </div><span class="name">关云长</span></a>
+                        </li>
+                        <li>
+                            <a data-bid="b_8W5s2" href="/asgard/movie/1277982">
+                                <div class="img-box"><img class="img noneBg" alt="" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="96" height="134" />
+                                    <div class="img-mask"></div>
+                                    <div class="grade"><span>猫眼评分</span><span class="score">9.2</span></div>
+                                </div><span class="name">决胜时刻</span></a>
+                        </li>
+                        <li>
+                            <a data-bid="b_8W5s2" href="/asgard/movie/1190122">
+                                <div class="img-box"><img class="img noneBg" alt="" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="96" height="134" />
+                                    <div class="img-mask"></div>
+                                    <div class="grade"><span>7.2万 人想看</span></div>
+                                </div><span class="name">叶问4</span></a>
+                        </li>
+                        <li>
+                            <a data-bid="b_8W5s2" href="/asgard/movie/346625">
+                                <div class="img-box"><img class="img noneBg" alt="" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="96" height="134" />
+                                    <div class="img-mask"></div>
+                                    <div class="grade"><span>猫眼评分</span><span class="score">8.8</span></div>
+                                </div><span class="name">至暗时刻</span></a>
+                        </li>
+                        <li>
+                            <a data-bid="b_8W5s2" href="/asgard/movie/344080">
+                                <div class="img-box"><img class="img noneBg" alt="" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="96" height="134" />
+                                    <div class="img-mask"></div>
+                                    <div class="grade"><span>猫眼评分</span><span class="score">7.9</span></div>
+                                </div><span class="name">第一夫人</span></a>
+                        </li>
+                        <li>
+                            <a data-bid="b_8W5s2" href="/asgard/movie/246965">
+                                <div class="img-box"><img class="img noneBg" alt="" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="96" height="134" />
+                                    <div class="img-mask"></div>
+                                    <div class="grade"><span>猫眼评分</span><span class="score">8.8</span></div>
+                                </div><span class="name">飞鹰艾迪</span></a>
+                        </li>
+                        <li>
+                            <a data-bid="b_8W5s2" href="/asgard/movie/341093">
+                                <div class="img-box"><img class="img noneBg" alt="" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="96" height="134" />
+                                    <div class="img-mask"></div>
+                                    <div class="grade"><span>猫眼评分</span><span class="score">7.0</span></div>
+                                </div><span class="name">我是乡下爷</span></a>
+                        </li>
+                        <li>
+                            <a data-bid="b_8W5s2" href="/asgard/movie/68179">
+                                <div class="img-box"><img class="img noneBg" alt="" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="96" height="134" />
+                                    <div class="img-mask"></div>
+                                    <div class="grade"><span>2 人想看</span></div>
+                                </div><span class="name">旷继勋蓬遂起义</span></a>
+                        </li>
+                        <li>
+                            <a data-bid="b_8W5s2" href="/asgard/movie/813214">
+                                <div class="img-box"><img class="img noneBg" alt="" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="96" height="134" />
+                                    <div class="img-mask"></div>
+                                    <div class="grade"><span>猫眼评分</span><span class="score">7.2</span></div>
+                                </div><span class="name">丘吉尔</span></a>
+                        </li>
+                        <li>
+                            <a data-bid="b_8W5s2" href="/asgard/movie/342003">
+                                <div class="img-box"><img class="img noneBg" alt="" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="96" height="134" />
+                                    <div class="img-mask"></div>
+                                    <div class="grade"><span>猫眼评分</span><span class="score">8.8</span></div>
+                                </div><span class="name">萨利机长</span></a>
+                        </li>
+                        <li>
+                            <a data-bid="b_8W5s2" href="/asgard/movie/66050">
+                                <div class="img-box"><img class="img noneBg" alt="" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="96" height="134" />
+                                    <div class="img-mask"></div>
+                                    <div class="grade"><span>暂无评分</span></div>
+                                </div><span class="name">天地之间</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="bottom-logo "><img class="img noneBg" alt="" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" /></section>
+            <div class="buy-ticket-btn can-buy ">
+                <div class="buy-wrapper"><img class="img noneBg" alt="" data-bid="b_1ynhbq6e" src="//s0.meituan.net/bs/?f=myfe/canary:/asgard/images/movie/share-icon.png" /><a data-bid="b_2cMf2" class="goto-ticket" href="//m.maoyan.com/cinema/movie/1230121">特惠购票</a></div>
+            </div>
+        </div>
+    </div>
+</section>

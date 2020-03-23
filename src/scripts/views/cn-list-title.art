@@ -1,0 +1,4 @@
+<div class="movie-title">
+    <span class="title">{{list.nm}}</span><span class="grade">{{sc}}<span class="small">分</span></span>
+</div>
+<div class="movie-desc line-ellipsis">{{list.desc}}</div>

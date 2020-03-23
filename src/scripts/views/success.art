@@ -1,0 +1,53 @@
+<div class="login-container">
+    <header id='login_head'>
+        <div class="head_">我的</div>
+        <div class="back_"><i class="icon_left"></i></div>
+    </header>
+    <div class="body">
+        <div class="header">
+            <img src="https://img.meituan.net/maoyanuser/350bff22b2ac2c7e5b11937b8dc8f9d212207.png" alt="">
+        </div>
+        <div class="contain">
+            <div class="group">
+                <div class="mb-outline-tb">
+                    <div class="order">
+                        <div class="title">
+                            我的订单
+                        </div>
+                        <div class="mb-line title-line"></div>
+                        <div class="list-two">
+                            <div class="orderitems movie">
+                                <p>电影</p>
+                            </div>
+                            <div class="orderitems movie">
+                                <p>商城</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="group">
+                <div class="mb-outline-tb">
+                    <ul>
+                        <li>在线观影</li>
+                        <li>优惠券</li>
+                        <li>折扣卡</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<footer>
+    <ul class='bottom-nav-bar'>
+        <li class='active' data-to="movie"><span class="yo-ico">&#xe66f;</span>
+            <p class='nav_bottom'>电影</p>
+        </li>
+        <li data-to='cineme'><span class="yo-ico">&#xe601;</span>
+            <p class='nav_bottom'>影院</p>
+        </li>
+        <li data-to='profile'><span class="yo-ico">&#xe600;</span>
+            <p>我的</p>
+        </li>
+    </ul>
+</footer>

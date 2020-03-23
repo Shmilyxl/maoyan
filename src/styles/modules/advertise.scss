@@ -1,0 +1,41 @@
+.advertise_contain {
+    height: 100%;
+    background: #f4f4f4;
+    .advertise_wrap {
+        user-select: none;
+        -webkit-touch-action: manipulation;
+        -ms-touch-action: manipulation;
+        touch-action: manipulation;
+        -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+        -webkit-overflow-scrolling: touch;
+        width: 100%;
+        overflow-x: hidden;
+        background: #f4f4f4;
+        font: 14px/1.5 Arial, Helvetica, sans-serif;
+        .advertise {
+            img {
+                width: 100%;
+            }
+        }
+        .btn {
+            height: 46px;
+            width: 247px;
+            line-height: 25px;
+            padding: 10.5px 87.5px;
+            margin-top: 16px;
+            background-image: -webkit-linear-gradient(right, #EE2F28 0, #F3532F 98%);
+            background-image: linear-gradient(-90deg, #EE2F28 0, #F3532F 98%);
+            box-shadow: 0 0 rgba(43, 3, 3, 0.22);
+            border-radius: .44rem;
+            position: fixed;
+            left: 20%;
+            .btn_text {
+                font-size: 18px;
+                color: white;
+                display: block;
+                width: 72px;
+                height: 25px;
+            }
+        }
+    }
+}

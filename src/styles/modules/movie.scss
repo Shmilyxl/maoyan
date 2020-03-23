@@ -1,0 +1,413 @@
+    .list-container {
+        height: 100%;
+        .download-header {
+            background: #fff;
+            height: 60px;
+            width: 100%;
+            display: -webkit-box;
+            display: flex;
+            -webkit-box-pack: justify;
+            justify-content: space-between;
+            -webkit-box-align: center;
+            align-items: center;
+            border-bottom: 1px solid #e8e8e8;
+            z-index: 100;
+            .logo-img {
+                margin-left: 11px;
+                margin-right: 6px;
+                min-width: 42px;
+                height: 42px;
+                background: url(http://p0.meituan.net/moviemachine/08d3ecf9c6fa9964c85d1f23b8d8fcb87541.png) no-repeat;
+                background-size: contain;
+            }
+            .info-wrapper {
+                -webkit-box-flex: 1;
+                flex-grow: 1;
+                color: #000;
+                content {
+                    font-size: 10px;
+                }
+            }
+            .link-btn {
+                display: -webkit-box;
+                display: flex;
+                -webkit-box-pack: center;
+                justify-content: center;
+                -webkit-box-align: center;
+                align-items: center;
+                min-width: 96px;
+                height: 42px;
+                margin-right: 6px;
+                border-radius: 22px;
+                background: #f03d37;
+                color: #fff;
+                font-size: 13px;
+                img {
+                    width: 20px;
+                    animation: heartbeat 2s infinite;
+                }
+                @keyframes heartbeat {
+                    0% {
+                        transform: scale(1.1);
+                    }
+                    25% {
+                        transform: scale(1.3);
+                    }
+                    50% {
+                        transform: scale(1.2);
+                    }
+                    75% {
+                        transform: scale(1.1);
+                    }
+                    100% {
+                        transform: scale(1);
+                    }
+                }
+            }
+        }
+        nav {
+            border-bottom: 1px solid #e8e8e8;
+            height: 44px;
+            z-index: 100;
+            .topbar-bg {
+                display: -webkit-box;
+                display: flex;
+                -webkit-box-align: center;
+                align-items: center;
+                height: 44px;
+                -webkit-box-pack: justify;
+                justify-content: space-between;
+            }
+            .white-bg {
+                background: #fff;
+            }
+            .city-entry {
+                position: relative;
+                padding-left: 15px;
+                font-size: 15px;
+                color: #666;
+                display: -webkit-box;
+                display: flex;
+                -webkit-box-align: center;
+                align-items: center;
+                &::after {
+                    content: "";
+                    position: absolute;
+                    left: 50px;
+                    top: 8px;
+                    border-top: 5px solid #666;
+                    border-left: 5px solid transparent;
+                    border-right: 5px solid transparent;
+                    border-bottom: 5px solid transparent;
+                }
+            }
+            .switch-hot {
+                display: -webkit-box;
+                display: flex;
+                height: 44px;
+                line-height: 44px;
+                position: relative;
+                .hot-item {
+                    font-size: 15px;
+                    color: #666;
+                    width: 80px;
+                    width: 21.33333vw;
+                    text-align: center;
+                    margin: 0 12px;
+                    font-weight: 700;
+                }
+                .hover_item {
+                    color: #f03d37;
+                    border-bottom: 2px solid #f03d37;
+                }
+            }
+            .search-icon {
+                width: 30px;
+                height: 30px;
+                background: url(../../assets/images/fdj.png) no-repeat -20px;
+                background-size: 20px;
+                padding: 10px 15px 10px 10px;
+                background-position: 0px;
+                margin-right: 10px;
+            }
+        }
+        .list_wrap {
+            width: 100%;
+            overflow: hidden;
+            height: 100%;
+            .list {
+                width: 100%;
+                background: #fff;
+                .pic {
+                    width: 74px;
+                    height: 90px;
+                    margin-left: 15px;
+                    float: left;
+                    position: relative;
+                    img {
+                        width: 64px;
+                        height: 90px;
+                        position: relative;
+                        margin-top: 12px;
+                    }
+                }
+                .list_item {
+                    padding: 12px 14px 12px 0;
+                    height: 114px;
+                    margin-left: 74px;
+                    position: relative;
+                    font-size: 13px;
+                    color: #666;
+                    display: flex;
+                    // @include border(0 0 1px 0, #867b7b);
+                    .h_wrap {
+                        flex: 1;
+                        overflow: hidden;
+                        h2 {
+                            font-size: 17px;
+                            color: #333;
+                            font-weight: 700;
+                            padding-right: 5px;
+                            flex-shrink: 1;
+                        }
+                        .assess {
+                            line-height: 13px;
+                            margin-right: 5px;
+                        }
+                        .line-ellipsis {
+                            text-overflow: ellipsis;
+                            overflow: hidden;
+                            white-space: nowrap;
+                        }
+                        .assess_num {
+                            font-weight: 700;
+                            color: #faaf00;
+                            font-size: 15px;
+                        }
+                    }
+                    .g_wrap {
+                        padding-top: 20px;
+                        width: 47px;
+                        .gp {
+                            display: block;
+                            width: 47px;
+                            height: 27px;
+                            line-height: 28px;
+                            text-align: center;
+                            box-sizing: border-box;
+                            background-color: #f03d37;
+                            color: #fff;
+                            border-radius: 4px;
+                            white-space: nowrap;
+                            font-size: 12px;
+                            cursor: pointer;
+                        }
+                    }
+                    .hot_list {
+                        background: #f6f6f6;
+                        .most_expect {
+                            padding: 12px 0 12px 15px;
+                            background-color: #fff;
+                            margin-bottom: 10px;
+                            overflow-y: auto;
+                            .title {
+                                margin: 0;
+                                font-size: 14px;
+                                color: #333;
+                                margin-bottom: 12px;
+                            }
+                            .expect_wrap {
+                                width: 500px;
+                                overflow-y: scroll;
+                                .title_list {
+                                    height: 10000px;
+                                    .expect_item {
+                                        display: inline-block;
+                                        width: 85px;
+                                        overflow: hidden;
+                                        margin-right: 10px;
+                                        .post_img_bg {
+                                            width: 85px;
+                                            height: 115px;
+                                            position: relative;
+                                            margin-bottom: 6px;
+                                        }
+                                        .default-img-bg {
+                                            background-color: #e1e1e1;
+                                            background-size: 100% 100%;
+                                            img {
+                                                width: 100%;
+                                            }
+                                        }
+                                        h5 {
+                                            display: block;
+                                            font-size: 0.83em;
+                                            margin-block-start: 1.67em;
+                                            margin-block-end: 1.67em;
+                                            margin-inline-start: 0px;
+                                            margin-inline-end: 0px;
+                                            font-weight: bold;
+                                        }
+                                        .line-ellipsis {
+                                            text-overflow: ellipsis;
+                                            overflow: hidden;
+                                            white-space: nowrap;
+                                        }
+                                        .name {
+                                            margin: 0;
+                                            font-size: 13px;
+                                            color: #222;
+                                            margin-bottom: 3px;
+                                        }
+                                        p {
+                                            margin: 0;
+                                            font-size: 12px;
+                                            color: #999;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        .coming_list {
+                            background-color: #fff;
+                            .coming_wrap {
+                                height: 145px;
+                                .g_date {
+                                    padding: 12px 15px 0;
+                                    margin: 0;
+                                    font-size: 14px;
+                                    color: #333;
+                                }
+                                .coming_item {
+                                    padding-left: 15px;
+                                    background-color: #fff;
+                                    .main_block {
+                                        position: relative;
+                                        width: 100%;
+                                        .avatar {
+                                            width: 64px;
+                                            height: 90px;
+                                            position: relative;
+                                            margin-top: 12px;
+                                            float: left;
+                                            &:before {
+                                                content: "";
+                                                display: block;
+                                                position: absolute;
+                                                width: 46px;
+                                                height: 46px;
+                                                background-repeat: no-repeat;
+                                                background-size: contain;
+                                            }
+                                            .image_img_bg {
+                                                background-color: #e1e1e1;
+                                                background-size: 100% 100%;
+                                                img {
+                                                    background-color: transparent;
+                                                    height: 90px;
+                                                }
+                                            }
+                                        }
+                                        .coming_content_wrapper {
+                                            padding: 12px 14px 12px 0;
+                                            margin-left: 74px;
+                                            height: 90px;
+                                            max-height: 90px;
+                                            position: relative;
+                                            display: flex;
+                                            .content {
+                                                flex: 1;
+                                                height: 86.2px;
+                                                padding-right: 5px;
+                                                margin-right: 48px;
+                                                overflow: hidden;
+                                                .movie_title {
+                                                    max-height: 24px;
+                                                    margin-bottom: 7px;
+                                                    line-height: 24px;
+                                                    overflow: hidden;
+                                                    display: flex;
+                                                    .title {
+                                                        font-size: 17px;
+                                                        color: #333;
+                                                        font-weight: 700;
+                                                        padding-right: 5px;
+                                                        flex-shrink: 1;
+                                                    }
+                                                }
+                                                .detail {
+                                                    margin-top: -3px;
+                                                    .wantsee {
+                                                        .wantsee_peo {
+                                                            color: #faaf00;
+                                                            font-size: 15px;
+                                                            font-weight: 600;
+                                                        }
+                                                        .people {
+                                                            font-size: 13px;
+                                                            margin-left: -2px;
+                                                            display: inline-block;
+                                                            color: #666;
+                                                        }
+                                                    }
+                                                    .actor {
+                                                        font-size: 13px;
+                                                        color: #666;
+                                                    }
+                                                    .line-ellipsis {
+                                                        text-overflow: ellipsis;
+                                                        overflow: hidden;
+                                                        white-space: nowrap;
+                                                    }
+                                                }
+                                            }
+                                            .button_block {
+                                                padding-top: 20px;
+                                                width: 47px;
+                                                .btn {
+                                                    display: block;
+                                                    width: 47px;
+                                                    height: 27px;
+                                                    line-height: 28px;
+                                                    text-align: center;
+                                                    box-sizing: border-box;
+                                                    background-color: #3C9FE6;
+                                                    color: #fff;
+                                                    border-radius: 4px;
+                                                    white-space: nowrap;
+                                                    font-size: 12px;
+                                                    cursor: pointer;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .down_tip {
+            display: block;
+            position: fixed;
+            right: 16px;
+            bottom: 100px;
+            width: 64px;
+            height: 90px;
+            background: url(http://p0.meituan.net/moviemachine/aecdf2ec9d155e6e35a9d8110dca3df229803.png) no-repeat;
+            background-size: contain;
+            z-index: 10;
+            display: none;
+        }
+        .show {
+            display: block;
+        }
+        .head img,
+        .foot img {
+            width: .16rem;
+            height: .16rem;
+            transition: transform 150ms;
+            -webkit-transition: transform 150ms;
+        }
+    }

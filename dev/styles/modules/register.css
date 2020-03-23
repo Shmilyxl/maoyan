@@ -1,0 +1,59 @@
+@charset "UTF-8";
+.search_contain .regiset_nav ul {
+  display: flex;
+  height: 42px;
+  padding: 14px 10px;
+  justify-items: center;
+  text-align: center;
+  background: #fff; }
+  .search_contain .regiset_nav ul li {
+    flex: 1; }
+  .search_contain .regiset_nav ul .active {
+    color: red; }
+
+.search_contain .res_inp_wrap {
+  height: 50px;
+  padding: 0 10px;
+  border-top: 10px solid #d6d6d6;
+  background: #fff; }
+  .search_contain .res_inp_wrap input {
+    height: 34px;
+    width: 100%;
+    border: 0; }
+
+.search_contain .agree {
+  padding: 14px 10px; }
+  .search_contain .agree input {
+    width: 22.5px;
+    height: 22.5px;
+    color: #fff;
+    position: relative; }
+    .search_contain .agree input::after {
+      content: '√';
+      width: 22.5px;
+      height: 22.5px;
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      color: #fff;
+      background: red;
+      text-align: center;
+      line-height: 22.5px; }
+  .search_contain .agree span {
+    margin-top: -3px; }
+  .search_contain .agree a {
+    margin-top: -3px;
+    color: #df2d2d; }
+
+.search_contain .btn {
+  height: 47px;
+  padding-left: 14px; }
+  .search_contain .btn button {
+    height: 100%;
+    background-color: #dcdcdc;
+    color: #999;
+    border: 0;
+    outline: none;
+    border: 0;
+    font-size: 20px;
+    width: 94%; }

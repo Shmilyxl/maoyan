@@ -1,0 +1,22 @@
+<div class='search_contain'>
+    <!-- <div class='back_pre'></div> -->
+    <header id='login_head'>
+        <div class="back_"><i class="icon_left"></i></div>
+        <div class="head_">猫眼电影</div>
+    </header>
+    <div class="regiset_nav">
+        <ul>
+            <li class="active">输入手机号</li><span>></span>
+            <li>输入验证码</li><span>></span>
+            <li>设置密码</li>
+        </ul>
+    </div>
+    <div class="res_inp_wrap">
+        <input type="text" placeholder="请输入您的手机号">
+    </div>
+    <div class="agree"><input type="checkbox" checked="true"><span>我已阅读并同意</span><a href="#">《美团网用户协议》</a></div>
+    <div class="btn"><button>获取验证码</button></div>
+    <div class="phone">
+        © 猫眼电影 客服电话：<a href="#">400-670-5335</a>
+    </div>
+</div>

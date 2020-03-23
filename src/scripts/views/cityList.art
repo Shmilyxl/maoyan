@@ -1,0 +1,9 @@
+{{each list}}
+<div class="city-title">{{$value.title}}</div>
+<div class="city_head">
+</div>
+{{each $value.items}}
+<div id='city' class="clearfix city_list_line city-list city_box">
+    <div class="item_item city_nm">{{$value.nm}}</div>
+</div>
+{{/each}} {{/each}}

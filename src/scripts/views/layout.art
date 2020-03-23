@@ -1,0 +1,18 @@
+<div class="index-container">
+    <header>猫眼电影</header>
+    <main>
+    </main>
+    <footer>
+        <ul class='bottom-nav-bar'>
+            <li class='active' data-to="movie"><span class="yo-ico">&#xe66f;</span>
+                <p class='nav_bottom'>电影</p>
+            </li>
+            <li data-to='cineme'><span class="yo-ico">&#xe601;</span>
+                <p class='nav_bottom'>影院</p>
+            </li>
+            <li data-to='profile'><span class="yo-ico">&#xe600;</span>
+                <p>我的</p>
+            </li>
+        </ul>
+    </footer>
+</div>

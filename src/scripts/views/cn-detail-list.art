@@ -1,0 +1,60 @@
+<div class="nav-wrap">
+    <div class="nav-block">
+        <div class="nav-bar">
+            <div class="nav-bar-wrap">
+                {{each list}}
+                <div class="nav-item">
+                    <span class='data-title'>
+                       {{$value.dateShow}}
+                    </span>
+                </div>
+                {{/each}}
+
+            </div>
+        </div>
+    </div>
+</div>
+<div class="seat-wrap">
+    <div class="discount-block">
+
+        <div class="vip-tip">
+            <a>
+                <div class="lable"></div>
+                <div class="lable-text"></div>
+                <div class="process">222</div>
+            </a>
+        </div>
+
+    </div>
+    <div class="seat-inner-wrap">
+        <div class="seat-list">
+            <div class="list-wrap">
+                {{each list}} {{each $value.plist}}
+                <div class="item-outer">
+                    <div class="item">
+                        <div class="time">
+                            <div class="begin">{{$value.tm}}</div>
+                            <div class="end">111</div>
+                        </div>
+                        <div class="info">
+                            <div class="lan">{{$value.lang}}{{$value.tp}}</div>
+                            <div class="hall">{{$value.th}}</div>
+                        </div>
+                        <div class="price">
+                            <div class="sellPr">
+                                <span>{{$value.vipPrice}}</span>
+                            </div>
+                            <div class="vipPrice"><span class="icon">{{$value.vipPriceName}}</span><span class='nm'>123</span></div>
+                            <div class="extract-price">{{$value.extraDesc}}</div>
+                        </div>
+                        <div class="btn-block">
+                            <div class="button">购票</div>
+                        </div>
+                    </div>
+                </div>
+                {{/each}}{{/each}}
+
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,16 @@
+{{each list}}
+<div class="movie cell">
+    <img class="poster" src={{$value.img.replace(/\/w.h\//,/128.180/)}} alt="">
+    <div class="info">
+        <div class="nm"><span class="one_line">{{$value.nm}}</span><span class="version">2d</span></div>
+
+        <div class="detail_wrap">
+            <div class="detail">
+                <p class="en_nm">{{$value.enm}}</p>
+                <p class="catogary">{{$value.cat}} </p>
+                <p class="date">{{$value.rt}}</p>
+            </div>
+        </div>
+    </div>
+</div>
+{{/each}}

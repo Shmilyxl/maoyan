@@ -1,0 +1,19 @@
+ {{each list}}
+<div class="li_wrap show">
+    <div class="pic"><img src={{$value.img.replace(/\/w.h\//,/128.180/)}}></img>
+    </div>
+    <li class='list_item' data-id="{{$value.id}}">
+        <div class="h_wrap">
+            <h2>{{$value.nm}}</h2><span class="assess">观众评</span><span class="assess_num">{{$value.sc}}</span>
+            <p class="actor line-ellipsis ">主演:{{$value.star}}</p>
+            <p class="play_etc line-ellipsis ">{{$value.showInfo}}</p>
+        </div>
+        {{if $value.globalReleased==true}}
+        <div class="g_wrap"><span class="gp">购票</span></div>
+        {{else}}
+        <div class="g_wrap"><span class="gp" style="background: #3C9FE6;">预售</span></div>
+        {{/if}}
+
+    </li>
+</div>
+{{/each}}
